@@ -1,0 +1,9 @@
+number1 = input("Enter a number 10 - 100 : ")
+number2 = input("Enter a number 10 - 100 : ")
+
+first_digit_num_1 = int(number1[0])
+first_digit_num_2 = int(number2[0])
+
+result = first_digit_num_1 + first_digit_num_2
+
+print(f'Thr result of {first_digit_num_1} + {first_digit_num_2} is {result}')
